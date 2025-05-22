@@ -11,28 +11,35 @@
 <!-- Navbar -->
 <header class="navbar">
     <div class="container">
-        <a class="logo" href="#">Haider</a>
-        <nav class="nav-links">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="logo-container">
+            <img src="img/logo.jpeg" alt="Logo" class="nav-logo">
+            <a href="#" class="logo">aider</a>
+        </div>
+        <div class="nav-right">
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button id="theme-toggle">🌙</button>
+        </div>
     </div>
 </header>
+
 
 <!-- About Section -->
 <section id="about" class="container">
     <div class="about-content">
         <div class="about-text">
-            <h2>About Me</h2>
-            <p>Aspiring to become a freelance web developer. Computer Science student with a passion for programming 
+            <h1>About Me</h1>
+            <p id ="description">Aspiring to become a freelance web developer. Computer Science student with a passion for programming 
                 and problem-solving. Takes initiative and consistently completes projects ahead of deadlines. Dependable 
                 team player recognized for effectively communicating ideas and collaborating to find innovative solutions. 
                 Passionate about learning and staying up to date with the latest technologies, programming languages, and 
                 tools. Interested in creating and building software applications, websites, or games.</p>
         </div>
-        <img src="img/AP.jpeg" alt="Profile Picture" class="profile-img">
+        <img src="img/pfp.jpeg" alt="Profile Picture" class="profile-img">
     </div>
 </section>
 
@@ -41,27 +48,27 @@
     <h2>Projects</h2>
     <div class="projects-container">
         <div class="project-card">
-            <img src="img/project1.png" alt="Project 1">
             <div class="card-body">
                 <h3>Project 1</h3>
-                <p>A brief description of Project 1.</p>
-                <a href="#" class="btn-primary">View Project</a>
+                <p>Personal Portfolio</p>
+                <p class = "languages">HTML, CSS, JS</p>
+                <a href="https://github.com/CoderHyder/Portfolio" class="btn-primary">View Project</a>
             </div>
         </div>
         <div class="project-card">
-            <img src="images/project2.jpg" alt="Project 2">
             <div class="card-body">
                 <h3>Project 2</h3>
-                <p>A brief description of Project 2.</p>
-                <a href="#" class="btn-primary">View Project</a>
+                <p>Bookbot</p>
+                <p class = "languages">Python</p>
+                <a href="https://github.com/CoderHyder/bookbot" class="btn-primary">View Project</a>
             </div>
         </div>
         <div class="project-card">
-            <img src="images/project3.jpg" alt="Project 3">
             <div class="card-body">
                 <h3>Project 3</h3>
-                <p>A brief description of Project 3.</p>
-                <a href="#" class="btn-primary">View Project</a>
+                <p>Egyptian ID Scanner</p>
+                <p class = "languages">Python</p>
+                <a href="https://github.com/CoderHyder/Egyptian-ID-Card-OCR/blob/main/ARABICOCR.ipynb" class="btn-primary">View Project</a>
             </div>
         </div>
     </div>
@@ -70,22 +77,42 @@
 <!-- Skills Section -->
 <section id="skills" class="container">
     <h2>Skills</h2>
-    <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>Flexbox Layout</li>
-        <li>Python, Flask</li>
-    </ul>
+    <div class="skills-container">
+        <ul class="skills-column">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <ul class="skills-column">
+            <li>SQL</li>
+            <li>Python</li>
+            <li>C++</li>
+        </ul>
+    </div>
 </section>
 
-<!-- Contact Section -->
+<!-- Get in Touch Section -->
 <section id="contact" class="container">
-    <h2>Contact</h2>
-    <form id="contact-form">
-        <input type="email" id="email" placeholder="Your Email" required>
-        <textarea id="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send</button>
-    </form>
+    <h2>Get in Touch</h2>
+    <p>My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+    <div class="button-group">
+        <a href="mailto:b00096026@aus.edu" target="_blank" id="mail-button" class="btn-primary">Mail Me</a>
+    </div>
 </section>
+
+<!-- Footer Section -->
+<footer id="footer">
+    <div class="social-icons">
+        <a href="https://github.com/CoderHyder" target="_blank"><img src="img/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/haider-raza-0b094b1bb/" target="_blank"><img src="img/linkedIn.png" alt="LinkedIn"></a>
+    </div>
+
+    <div class="footer-text">
+        <p>© 2025 All rights reserved</p>
+    </div>
+</footer>
+
+<button id="back-to-top">⬆</button>
 
 <!-- JavaScript -->
 <script src="js/script.js"></script>
