@@ -1,288 +1,287 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 /* General Styles */
 body {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    background-color: #151616;
-    transition: 0.3s ease-in-out;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: #151616;
+  transition: 0.3s ease-in-out;
 }
 
 /* Light Mode (Applied via JavaScript) */
 .light-mode {
-    background-color: #FFF8DC;
-    color: black;
+  background-color: #fff8dc;
+  color: black;
 }
 
 /* Navbar */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 15px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px 20px;
 }
 
 /* Ensuring navbar content is flex-aligned */
 .navbar .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Logo & Image */
 .logo-container {
-    display: flex;
-    align-items: center;
-    gap: 0px;
+  display: flex;
+  align-items: center;
+  gap: 0px;
 }
 
 .nav-logo {
-    height: 40px;
-    width: auto;
+  height: 40px;
+  width: auto;
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
 /* Right-aligned navbar items */
 .nav-right {
-    display: flex;
-    align-items: center;
-    gap: 15px; /* Space between nav-links and toggle button */
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between nav-links and toggle button */
 }
 
 /* Navbar Links */
 .nav-links {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .nav-links a:hover {
-    color: #00aaff;
+  color: #00aaff;
 }
-
 
 /* About Section */
 .about-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-    max-width: 911px;
-    margin: 50px auto;
-    gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  max-width: 911px;
+  margin: 50px auto;
+  gap: 30px;
 }
 
 #description {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15 px;
-    line-height: 2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15 px;
+  line-height: 2;
 }
 
 .about-text {
-    flex: 1;
+  flex: 1;
 }
 
 h1 {
-    color: rgb(0, 170, 255)
+  color: rgb(0, 170, 255);
 }
 
 h2 {
-    text-align: center;
-    margin-top: 100px;
-    color: rgb(0, 170, 255)
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(0, 170, 255);
 }
 
 .profile-img {
-    width: 300px;
-    height: 400px;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-left: 50px
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
 /* Projects Section */
 .projects-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .project-card {
-    background-color: #222;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: 0.2s ease-out;
-    width: 300px;
+  background-color: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.2s ease-out;
+  width: 300px;
 }
 
 .project-card h3 {
-    color: yellow
+  color: yellow;
 }
 
 /* Ensure project card text stays white */
 .project-card {
-    background-color: #222; /* Keeps dark background for contrast */
-    color: white !important; /* Forces text to stay white */
+  background-color: #222; /* Keeps dark background for contrast */
+  color: white !important; /* Forces text to stay white */
 }
 
 .project-card p {
-    color: white !important; /* Ensures project title and description remain white */
+  color: white !important; /* Ensures project title and description remain white */
 }
 
 .project-card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .project-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card-body {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
 
 .card-title {
-    font-size: 1.5rem;
-    color: white;
+  font-size: 1.5rem;
+  color: white;
 }
 
 .card-text {
-    font-size: 1rem;
-    color: #ddd;
+  font-size: 1rem;
+  color: #ddd;
 }
 
 .languages {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .btn-primary {
-    background-color: #00aaff;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif; /* Ensures the same font for all buttons */
-    transition: background 0.3s ease-in-out;
-    display: inline-block;
-    cursor: pointer;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif; /* Ensures the same font for all buttons */
+  transition: background 0.3s ease-in-out;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
-    background-color: #0077cc;
+  background-color: #0077cc;
 }
 
 /* Skills Section */
 .skills-container {
-    display: flex;
-    justify-content: center;
-    gap: 250px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  margin-top: 20px;
 }
 
 .skills-column {
-    color: white;
-    font-size: 1.2rem;
-    text-align: left;
-    padding: 0;
+  color: white;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 0;
 }
 
 .skills-column li {
-    margin: 20px 60px 30px 0;
-    color: yellow
+  margin: 20px 60px 30px 0;
+  color: yellow;
 }
 
 .light-mode .skills-column li {
-    margin: 20px 60px 30px 0;
-    color: black
+  margin: 20px 60px 30px 0;
+  color: black;
 }
 
 /* Get in Touch Section */
 #contact {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 /* Centering the button */
 .button-group {
-    display: flex;
-    justify-content: center; /* Centers the button horizontally */
-    margin-top: 20px;
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  margin-top: 20px;
 }
 
 /* Mail Me Button Styling */
 .button-group {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 /* Footer Section */
 #footer {
-    text-align: center;
-    padding: 30px 0;
-    background-color: #151616; 
-    color: white;
-    margin-top: 50px;
+  text-align: center;
+  padding: 30px 0;
+  background-color: #151616;
+  color: white;
+  margin-top: 50px;
 }
 
 .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
 }
 
 .social-icons a img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s ease-in-out;
-    border-radius: 8px; 
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 8px;
 }
 
 .social-icons a img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .footer-text p {
-    font-size: 0.9rem;
-    color: #ddd;
-    margin: 5px 0;
+  font-size: 0.9rem;
+  color: #ddd;
+  margin: 5px 0;
 }
 
 /* scroll up arrow */
 #back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none; /* Initially hidden */
-    background-color: yellow;
-    color: black;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Initially hidden */
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 #back-to-top:hover {
-    background-color: #0077cc;
+  background-color: #0077cc;
 }
-
