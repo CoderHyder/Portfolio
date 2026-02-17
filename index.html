@@ -1,147 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Haider Raza | Portfolio</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <header class="navbar">
-      <div class="container">
-        <div class="logo-container">
-          <img src="img/logo.jpeg" alt="Logo" class="nav-logo" />
-          <a href="#" class="logo">aider</a>
-        </div>
-        <div class="nav-right">
-          <nav class="nav-links">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-          </nav>
-          <button id="theme-toggle">🌙</button>
-        </div>
-      </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container">
-      <div class="about-content">
-        <div class="about-text">
-          <h1>About Me</h1>
-          <p id="description">
-            I build responsive websites and full-stack web applications with
-            clean front-end design, secure back-end functionality, and full
-            database integration. I manage the entire development process—from
-            feature implementation to deployment—to deliver fully functional,
-            custom-built digital products aligned with client goals.
-          </p>
-        </div>
-        <img src="img/pfp.jpeg" alt="Profile Picture" class="profile-img" />
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="container">
-      <h2>Projects</h2>
-      <div class="projects-container">
-        <div class="project-card">
-          <div class="card-body">
-            <h3>Project 1</h3>
-            <p>SmartMealz</p>
-            <p class="languages">HTML, CSS, JS, Java, SQL</p>
-            <a
-              href="https://github.com/CoderHyder/SmartMealz"
-              class="btn-primary"
-              >View Project</a
-            >
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="card-body">
-            <h3>Project 2</h3>
-            <p>Egyptian ID Cards OCR</p>
-            <p class="languages">Python</p>
-            <a
-              href="https://github.com/CoderHyder/Egyptian-ID-Card-OCR"
-              class="btn-primary"
-              >View Project</a
-            >
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="card-body">
-            <h3>Project 3</h3>
-            <p>AMZ Vintage Wholesale</p>
-            <p class="languages">JavaScript</p>
-            <a href="https://www.amz-vintagewholesale.com/" class="btn-primary"
-              >View Project</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="container">
-      <h2>Skills</h2>
-      <div class="skills-container">
-        <ul class="skills-column">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-        <ul class="skills-column">
-          <li>SQL</li>
-          <li>Python</li>
-          <li>C++</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Get in Touch Section -->
-    <section id="contact" class="container">
-      <h2>Get in Touch</h2>
-      <p>
-        My inbox is always open. Whether you have a question or just want to say
-        hi, I’ll try my best to get back to you!
-      </p>
-      <div class="button-group">
-        <a
-          href="mailto:b00096026@aus.edu"
-          target="_blank"
-          id="mail-button"
-          class="btn-primary"
-          >Mail Me</a
-        >
-      </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer id="footer">
-      <div class="social-icons">
-        <a href="https://github.com/CoderHyder" target="_blank"
-          ><img src="img/github.png" alt="GitHub"
-        /></a>
-        <a
-          href="https://www.linkedin.com/in/haider-raza-0b094b1bb/"
-          target="_blank"
-          ><img src="img/linkedIn.png" alt="LinkedIn"
-        /></a>
-      </div>
-
-      <div class="footer-text">
-        <p>© 2025 All rights reserved</p>
-      </div>
-    </footer>
-
-    <button id="back-to-top">⬆</button>
-
-    <!-- JavaScript -->
-    <script src="js/script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
