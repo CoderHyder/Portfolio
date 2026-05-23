@@ -26,7 +26,7 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-white to-red-600 bg-clip-text text-transparent mb-4">
-              Web Developer
+              AI Web Developer
             </h1>
           </motion.div>
 
@@ -36,8 +36,9 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <p className="text-lg text-gray-400 mb-8">
-              Hi, I'm Haider Raza. A final year university student passionate
-              about software and web development.
+              Professional in architecting scalable solutions, passionate about
+              software and web development, leveraging AI to solve real-world
+              problems.
             </p>
           </motion.div>
 
@@ -82,7 +83,7 @@ const Hero = () => {
               className="bg-red-600 text-white px-8 py-3 rounded-lg hover:bg-red-600 transition-colors inline-flex items-center"
             >
               See My Projects
-              <span className="ml-2">→</span>
+              {/* <span className="ml-2">→</span> */}
             </a>
             <a
               href="/resume_portfolio.pdf"
@@ -91,7 +92,7 @@ const Hero = () => {
               className="bg-[#1A1A1A] text-white px-8 py-3 rounded-lg hover:text-red-500 transition-colors inline-flex items-center"
             >
               Download Resume
-              <span className="ml-2">↓</span>
+              {/* <span className="ml-2">↓</span> */}
             </a>
           </motion.div>
         </div>

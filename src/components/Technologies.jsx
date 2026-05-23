@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import {
+  SiClaude,
+  SiGithubcopilot,
   SiJavascript,
   SiTypescript,
   SiReact,
@@ -11,6 +13,7 @@ import {
   SiMysql,
   SiAstro,
   SiGit,
+  SiOpenai,
   SiSpringboot,
 } from "react-icons/si";
 import { DiJava } from "react-icons/di";
@@ -93,6 +96,43 @@ const technologies = [
   },
 ];
 
+const aiTools = [
+  {
+    name: "Claude Code",
+    icon: SiClaude,
+    type: "AI Coding Agent",
+    color: "text-orange-300",
+  },
+  {
+    name: "Codex",
+    icon: SiOpenai,
+    type: "AI Coding Agent",
+    color: "text-emerald-300",
+  },
+  {
+    name: "GitHub Copilot",
+    icon: SiGithubcopilot,
+    type: "AI Pair Programmer",
+    color: "text-white",
+  },
+];
+
+const SkillCard = ({ item, index }) => (
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.5, delay: index * 0.1 }}
+    className="bg-[#1A1A1A] p-4 rounded-lg flex items-center gap-4"
+  >
+    <item.icon className={`w-8 h-8 ${item.color}`} />
+    <div className="text-left">
+      <h3 className="text-white font-medium">{item.name}</h3>
+      <p className="text-sm text-gray-400">{item.type}</p>
+    </div>
+  </motion.div>
+);
+
 const Technologies = () => {
   return (
     <section className="py-20 bg-black">
@@ -113,20 +153,27 @@ const Technologies = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {technologies.map((tech, index) => (
-            <motion.div
-              key={tech.name}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-[#1A1A1A] p-4 rounded-lg flex items-center gap-4"
-            >
-              <tech.icon className={`w-8 h-8 ${tech.color}`} />
-              <div className="text-left">
-                <h3 className="text-white font-medium">{tech.name}</h3>
-                <p className="text-sm text-gray-400">{tech.type}</p>
-              </div>
-            </motion.div>
+            <SkillCard key={tech.name} item={tech} index={index} />
+          ))}
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-center mt-16 mb-8"
+        >
+          <h3 className="text-3xl font-bold text-white mb-3 ">AI Tools</h3>
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            Tools I use to accelerate development, explore ideas, and ship more
+            effectively.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          {aiTools.map((tool, index) => (
+            <SkillCard key={tool.name} item={tool} index={index} />
           ))}
         </div>
       </div>

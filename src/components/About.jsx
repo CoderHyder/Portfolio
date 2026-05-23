@@ -17,30 +17,35 @@ const About = () => {
 
               <div className="space-y-4 text-gray-400 text-lg leading-relaxed">
                 <p>
-                  I am currently a{" "}
-                  <span className="text-white font-semibold">
-                    final year Student
-                  </span>
-                  , researching on how to help the non-verbal population
-                  communicate naturally using EEG. Previously, I was at{" "}
-                  <span className="text-red-400">Mashreq</span> and{" "}
-                  <span className="text-red-400">GC International FZCO</span>.
-                  At the same time, I am a full-time student pursuing a degree
-                  in{" "}
-                  <span className="text-white font-semibold">
-                    Bachelor's of Science in Computer Science
-                  </span>{" "}
-                  at{" "}
-                  <span className="text-red-400">
-                    American University of Sharjah
-                  </span>
-                  .
+                  I build scalable software, AI-powered systems, and modern web
+                  experiences focused on solving real-world problems. My work
+                  spans full-stack development, automation, and AI research,
+                  with a strong focus on performance, usability, and intelligent
+                  systems.
                 </p>
 
                 <p>
-                  Outside of work, I'm nerdy about tech giants, love literary
-                  fiction, and play way too many strategic games. Oh, I make
-                  content too.
+                  Currently, I'm contributing to AI research at{" "}
+                  <span className="text-red-400">Khayal</span>, developing
+                  EEG-based imagined speech decoding systems that use deep
+                  learning and signal processing to help non-verbal individuals
+                  communicate more naturally through brain-computer interface
+                  technologies.
+                </p>
+
+                <p>
+                  Previously, I worked at{" "}
+                  <span className="text-red-400">Mashreq Bank</span> on OCR and
+                  automation systems, and at{" "}
+                  <span className="text-red-400">GC International FZCO</span> as
+                  a Full Stack Developer Intern, building high-performance web
+                  applications and interactive digital experiences.
+                </p>
+
+                <p>
+                  Outside of development, I enjoy following advancements in AI
+                  and big tech, reading literary fiction, creating content, and
+                  playing strategy games.
                 </p>
 
                 <div className="mt-8">
