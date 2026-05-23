@@ -16,7 +16,7 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-xl text-white font-semibold mb-4">
-              BASED IN DUBAI, UAE
+              HAIDER RAZA · BASED IN DUBAI, UAE
             </h2>
           </motion.div>
 
@@ -36,9 +36,9 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <p className="text-lg text-gray-400 mb-8">
-              Professional in architecting scalable solutions, passionate about
-              software and web development, leveraging AI to solve real-world
-              problems.
+              I build AI-powered web applications, automation tools, and
+              intelligent interfaces that turn complex workflows into usable
+              products.
             </p>
           </motion.div>
 
@@ -82,11 +82,11 @@ const Hero = () => {
               href="#projects"
               className="bg-red-600 text-white px-8 py-3 rounded-lg hover:bg-red-600 transition-colors inline-flex items-center"
             >
-              See My Projects
+              View Projects
               {/* <span className="ml-2">→</span> */}
             </a>
             <a
-              href="/resume_portfolio.pdf"
+              href="/Resume_Application_Haider_Raza.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#1A1A1A] text-white px-8 py-3 rounded-lg hover:text-red-500 transition-colors inline-flex items-center"

@@ -17,14 +17,22 @@ const About = () => {
 
               <div className="space-y-4 text-gray-400 text-lg leading-relaxed">
                 <p>
-                  I build scalable software, AI-powered systems, and modern web
-                  experiences focused on solving real-world problems. My work
-                  spans full-stack development, automation, and AI research,
-                  with a strong focus on performance, usability, and intelligent
-                  systems.
+                  I’m an AI Web Developer building full-stack applications,
+                  automation tools, and intelligent interfaces. I focus on
+                  practical systems with clean frontends, reliable backends, and
+                  AI features that solve real problems.
                 </p>
 
                 <p>
+                  Recently, I’ve worked on{" "}
+                  <span className="text-red-400">Khayal</span>, a senior design
+                  project focused on sentence-level brain-signal decoding, along
+                  with OCR automation at{" "}
+                  <span className="text-red-400">Mashreq</span> and production
+                  web platforms for client businesses.
+                </p>
+
+                {/* <p>
                   Currently, I'm contributing to AI research at{" "}
                   <span className="text-red-400">Khayal</span>, developing
                   EEG-based imagined speech decoding systems that use deep
@@ -40,7 +48,7 @@ const About = () => {
                   <span className="text-red-400">GC International FZCO</span> as
                   a Full Stack Developer Intern, building high-performance web
                   applications and interactive digital experiences.
-                </p>
+                </p> */}
 
                 <p>
                   Outside of development, I enjoy following advancements in AI

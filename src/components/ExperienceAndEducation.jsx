@@ -49,9 +49,10 @@ const education = [
     school: "American University of Sharjah",
     period: "August 2022 - May 2026",
     description: [
-      "Specialized in Software Engineering and Web Technologies",
-      "Key coursework: Data Structures, Algorithms, Database Management, Web Development, Software Engineering",
-      "Final year project on EEG signals and LLMs for non-verbal people",
+      "Specialized in Software Engineering, Web Technologies, and AI-driven application development",
+      "Completed core coursework in Data Structures, Algorithms, Database Systems, Web Development, Software Engineering, and Machine Learning",
+      "Developed full-stack applications and research-driven software projects across academic and applied settings",
+      "Built a final-year project on EEG-based imagined speech decoding using signal processing, deep learning, and LLMs to support non-verbal communication",
     ],
     logo: "/img/education/AUS_portfolio.png",
   },
