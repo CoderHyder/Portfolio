@@ -14,8 +14,8 @@ const Contact = () => {
           >
             <h2 className="text-4xl font-bold text-white mb-6">Get in Touch</h2>
             <p className="text-gray-400 text-lg mb-8">
-              My inbox is always open. Whether you have a question or just want
-              to say hi, I'll try my best to get back to you!
+              My inbox is always open. I'm open to opportunities,
+              collaborations, or any questions you’d like to reach out about.
             </p>
           </motion.div>
 
@@ -28,6 +28,8 @@ const Contact = () => {
           >
             <a
               href="mailto:haiderr099@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-red-600 text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors font-medium"
             >
               Mail Me
